@@ -1,0 +1,512 @@
+/* @keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+
+.navbar-section .navbar-brand {
+    font-size: 40px !important;
+}
+
+.navbar-section .navbar-brand span {
+    font-weight: bold;
+    color: #FFAA5A;
+    /* Orange for 'App' */
+}
+
+.navbar-section .navbar-brand {
+    font-weight: bold;
+    color: #1E2A44;
+    /* Dark navy for 'Lab' */
+}
+
+.navbar-section .nav-link {
+    color: #1E2A44 !important;
+    font-weight: 500;
+    font-size: 21px !important;
+}
+
+.navbar-section .nav-link:hover {
+    color: #0000FF !important;
+}
+
+.navbar-section .btn {
+    font-size: 18px !important;
+}
+
+.navbar-section .btn-try {
+    background-color: #0000FF;
+    /* Blue Button */
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 25px;
+    /* Rounded corners */
+    padding: 8px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-section .btn-try:hover {
+    background-color: #0000CC;
+    /* Slightly darker blue */
+    color: #FFF;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url("../img/hero-section-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.hero-section .tagline {
+    background-color: #EDEFF4;
+    padding-right: 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hero-section .tagline img {
+    margin-right: 10px;
+}
+
+.hero-section .heading {
+    color: #1E2A44;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero-section .subtext {
+    color: #666687;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.hero-section .btn-custom {
+    background-color: #0000FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn-custom:hover {
+    background-color: #0000CC;
+}
+
+.hero-section .link-demo {
+    color: #4C46FF;
+    margin-left: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.hero-section .mockup img {
+    max-width: 100%;
+}
+
+
+/* Client Section */
+
+.client-section {
+    padding: 90px 0;
+}
+
+.client-section .client-card img {
+    max-width: 100%;
+    /* Makes sure the images are responsive */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+
+.client-section .client-card img:hover {
+    transform: scale(1.1);
+}
+
+.client-section .client-card {
+    padding: 10px;
+    text-align: center;
+}
+
+.client-section .client-section-text {
+    color: #1E2A44;
+    font-size: 22px;
+}
+
+/* App Feature Section */
+
+.app-feature-section {
+    padding: 90px 0;
+}
+
+.app-feature-section .feature-title {
+    font-weight: 600;
+    color: #1E2A44;
+    margin: 20px 0;
+}
+
+.app-feature-section .feature-subtitle {
+    color: #616368;
+    margin-bottom: 80px;
+}
+
+.app-feature-section .feature-item h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.app-feature-section .feature-item p {
+    margin: 0;
+    color: #616368;
+}
+
+
+
+/* .app-feature-section .fade-in-right {
+    animation: fadeInRight 1s ease-in-out;
+    opacity: 0;
+    transform: translateX(50px);
+    animation-fill-mode: forwards;
+} */
+
+/* Jackpot Section */
+
+.jackpot-section h1 {
+    font-weight: 600;
+    color: #1E2A44;
+    margin-left: 40px;
+}
+
+.jackpot-section p {
+    color: #616368;
+    margin-left: 40px;
+}
+
+.jackpot-section h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.jackpot-section .formate_text {
+    color: #616368;
+    margin: 0;
+}
+
+.jackpot-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 90px;
+
+}
+
+/* Code Integration Section */
+
+.code-integration-section {
+    padding: 90px 0;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.code-integration-section h2 {
+    font-weight: 600;
+    color: #1E2A44;
+}
+
+.code-integration-section p {
+    color: #616368;
+    margin-top: 20px;
+}
+
+.code-integration-section .btn-custom {
+    background-color: #0000FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.code-integration-section .btn-custom:hover {
+    background-color: #0000CC;
+}
+
+/* App Component Section */
+
+.app-component-section {
+    padding: 90px 0;
+}
+
+.app-component-section h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1E2A44;
+}
+
+.app-component-section p {
+    color: #616368;
+}
+
+.app-component-section .card-body img {
+    width: 80px; /* Adjust icon size */
+    height: auto;
+}
+
+.app-component-section .card-body h5 {
+    font-weight: 600;
+    color: #1E2A44;
+}
+
+/* Ultimate features Section */
+
+.ultimate-features-section {
+    padding-bottom: 90px;
+    position: relative;
+}
+
+.ultimate-features-section .image-outside-container {
+    position: absolute; /* Allows positioning the image outside the container */
+    top: 50%;
+    right: 0px; 
+    transform: translateY(-50%);
+    z-index: -1; /* Place the image behind the section */
+}
+
+.ultimate-features-section img {
+    max-width: 120%;
+    height: auto;
+}
+
+
+.ultimate-features-section h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1E2A44;
+}
+
+.ultimate-features-section p {
+    color: #616368;
+}
+
+.ultimate-features-section h5 {
+    font-weight: 600;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    color: #1E2A44;
+}
+
+.ultimate-features-section .btn-custom {
+    background-color: #0000FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.ultimate-features-section .btn-custom:hover {
+    background-color: #0000CC;
+}
+
+/* Subscription section */
+
+.subscription-section {
+    padding-bottom: 90px;
+    border-bottom: 3px solid #f4f4f4;
+}
+
+.subscription-section .section-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1E2A44;
+}
+
+.subscription-section .section-description {
+    color: #616368;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.subscription-section .toggle-container {
+    display: flex;
+    border: 3px solid #ebebeb;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 247px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.subscription-section .toggle-button {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px;
+    margin: 4px 4px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #898a8e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscription-section .toggle-button.active {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+  }
+
+.subscription-section .toggle-button:hover {
+    background-color: #898a8e;
+    color: white;
+}  
+
+.subscription-section .toggle-button:hover .toggle-button.active{
+    background-color: #0032fa;
+}  
+
+.subscription-section .card {
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    /* height: 550px; */
+    width: 100%;
+}
+
+.subscription-section .card:hover {
+    transform: translateY(-5px);
+}
+
+.subscription-section .card-header{
+    background-color: white;
+    background-image: linear-gradient(white, #f5f7f9);
+    border-bottom:none ;  
+}
+
+.subscription-section .price {
+    font-size: 60px;
+    font-weight: bold;
+    color: #1E2A44;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.subscription-section .price span {
+    font-size: 18px;
+    font-weight: normal;
+    color: #999ca5;
+}
+
+.subscription-section .plan-title {
+    font-size: 20px;
+    color: #1E2A44;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.subscription-section .plan-subtitle {
+    font-size: 16px;
+    color: #999ca5;
+    margin-bottom: 20px;
+}
+
+.subscription-section .plan-features {
+    font-size: 16px;
+    color: #999ca5;
+    line-height: 40px;
+}
+
+.subscription-section .plan-features li {
+    margin: 5px 0;
+}
+
+.subscription-section .btn-custom {
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #0000FF;
+    transition: background-color 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.subscription-section .btn-custom:hover {
+    background-color: #0000CC;
+}
+
+.subscription-section .plan-link{
+    color: #2500f9;
+}
+
+.subscription-section .plan-link:hover{
+    color: #16028d;
+}
+
+.subscription-section .trial-text {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #616368;
+}
+
+/* Client Section */
+
+/* .client-section {
+    padding-bottom: 90px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+} */
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .stars i {
+    color: #f1c40f;
+  }
+  
+  .avatar {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Adjust avatar positions */
+  .avatar-1 { top: 20%; left: 40%; }
+  .avatar-2 { top: 10%; left: 60%; }
+  .avatar-3 { top: 40%; left: 10%; }
+  .avatar-4 { top: 50%; left: 80%; }
+  .avatar-5 { top: 60%; left: 50%; }

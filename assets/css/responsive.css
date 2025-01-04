@@ -1,0 +1,58 @@
+@media (max-width: 991px) {
+
+    /* App Feature Section */
+    .app-feature-section {
+        padding-top: 0;
+    }
+
+    .app-feature-section .feature-title,
+    .feature-subtitle {
+        text-align: center;
+    }
+
+    .app-feature-section .feature-item {
+        text-align: center !important;
+        display: inherit !important;
+    }
+
+    .app-feature-section .feature-item img {
+        margin-bottom: 20px;
+    }
+
+    .app-feature-section .icon-container {
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    /* Jackpot Section */
+    .jackpot-section .border-end {
+        border: none !important;
+    }
+
+    .jackpot-section h1 {
+        margin: 0;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .jackpot-section p {
+        text-align: center;
+        margin: 0;
+    }
+
+    /* Code Integration Section */
+
+   .code-integration-section h2 {
+        margin-top: 40px;
+    }
+
+    /* Ultimate features Section */
+    .ultimate-features-section .image-outside {
+        display: none;
+    }
+
+    .ultimate-features-section .for_text_center{
+        text-align: center;
+    }
+
+}
