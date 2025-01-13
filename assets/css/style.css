@@ -267,7 +267,8 @@ body {
 }
 
 .app-component-section .card-body img {
-    width: 80px; /* Adjust icon size */
+    width: 80px;
+    /* Adjust icon size */
     height: auto;
 }
 
@@ -284,11 +285,13 @@ body {
 }
 
 .ultimate-features-section .image-outside-container {
-    position: absolute; /* Allows positioning the image outside the container */
+    position: absolute;
+    /* Allows positioning the image outside the container */
     top: 50%;
-    right: 0px; 
+    right: 0px;
     transform: translateY(-50%);
-    z-index: -1; /* Place the image behind the section */
+    z-index: -1;
+    /* Place the image behind the section */
 }
 
 .ultimate-features-section img {
@@ -378,16 +381,16 @@ body {
     font-weight: bold;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
-  }
+}
 
 .subscription-section .toggle-button:hover {
     background-color: #898a8e;
     color: white;
-}  
+}
 
-.subscription-section .toggle-button:hover .toggle-button.active{
+.subscription-section .toggle-button:hover .toggle-button.active {
     background-color: #0032fa;
-}  
+}
 
 .subscription-section .card {
     transition: transform 0.3s ease-in-out;
@@ -400,10 +403,10 @@ body {
     transform: translateY(-5px);
 }
 
-.subscription-section .card-header{
+.subscription-section .card-header {
     background-color: white;
     background-image: linear-gradient(white, #f5f7f9);
-    border-bottom:none ;  
+    border-bottom: none;
 }
 
 .subscription-section .price {
@@ -457,11 +460,11 @@ body {
     background-color: #0000CC;
 }
 
-.subscription-section .plan-link{
+.subscription-section .plan-link {
     color: #2500f9;
 }
 
-.subscription-section .plan-link:hover{
+.subscription-section .plan-link:hover {
     color: #16028d;
 }
 
@@ -474,7 +477,6 @@ body {
 /* Review Section */
 
 .review-section {
-    padding: 112px 0;
     margin: 90px 0;
     background-image: url("../img/bg-review.png");
     background-repeat: no-repeat;
@@ -482,3 +484,87 @@ body {
     background-size: calc(50% - -64px);
 }
 
+.review-section .section-title {
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #1E2A44;
+}
+
+.review-section .section-description {
+    color: #616368;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.review-section .bi {
+    color: #ffcc00;
+    margin-right: 5px;
+}
+
+.review-section .section-subtitle {
+    color: #1E2A44;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 30px 0px 40px 0px;
+
+}
+
+.review-section .section-description2 {
+    color: #616368;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 65px;
+}
+
+.review-section .profile-card {
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-section .profile-image {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+    width: 90px;
+    height: 90px;
+
+}
+
+.review-section .profile-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #1E2A44;
+    margin-bottom: 5px;
+}
+
+.review-section .profile-title {
+    font-size: 18px;
+    color: #616368;
+    font-weight: 400;
+}
+
+.review-section .arrow-icon {
+    margin-left: auto;
+}
+
+.review-section  .carousel-control-prev-icon {
+    background-image: none !important;
+}
+
+.review-section .carousel-control-next-icon {
+    background-image: none !important;
+}
+
+.review-section .btn-outline-primary {
+    background-color: #eff3f8 !important;
+}
+
+.review-section .btn {
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    border: none !important;
+}
