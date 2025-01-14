@@ -395,8 +395,9 @@ body {
 .subscription-section .card {
     transition: transform 0.3s ease-in-out;
     border: none;
-    /* height: 550px; */
+    height: 550px;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .subscription-section .card:hover {
@@ -521,7 +522,6 @@ body {
     padding: 20px;
     display: flex;
     align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .review-section .profile-image {
